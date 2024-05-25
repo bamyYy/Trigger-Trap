@@ -20,7 +20,10 @@
   "ResourceOrderSettings":[
     {"name":"obj_control","order":1,"path":"objects/obj_control/obj_control.yy",},
     {"name":"obj_stop","order":2,"path":"objects/obj_stop/obj_stop.yy",},
+    {"name":"obj_trap","order":3,"path":"objects/obj_trap/obj_trap.yy",},
     {"name":"spr_playerBlue","order":1,"path":"sprites/spr_playerBlue/spr_playerBlue.yy",},
+    {"name":"spr_trapBlue","order":3,"path":"sprites/spr_trapBlue/spr_trapBlue.yy",},
+    {"name":"spr_trapRed","order":4,"path":"sprites/spr_trapRed/spr_trapRed.yy",},
     {"name":"Sprite4","order":2,"path":"sprites/Sprite4/Sprite4.yy",},
     {"name":"Test","order":2,"path":"tilesets/Test/Test.yy",},
   ],

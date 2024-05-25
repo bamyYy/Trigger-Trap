@@ -7,3 +7,7 @@ if (player_id == 0){
 	x = room_width-50;	
 	sprite_index = spr_playerBlue;
 }
+
+show_debug_message(player_local.x);
+
+show_debug_message(player_local.y);
