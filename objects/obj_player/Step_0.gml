@@ -50,7 +50,7 @@ if (place_meeting(x, y, obj_trapTrigger)) {
 			with (obj_trap) {
 				sprite_index = spr_trapRed;	
 			}
-			alarm[0] = room_speed*2;
+			alarm[0] = room_speed*4;
 			TrapTimer = true;
 			FireTrapUsage++;
 		} else {
@@ -58,6 +58,14 @@ if (place_meeting(x, y, obj_trapTrigger)) {
 			FireCheck = true;
 		}
 	}
+}
+
+if (place_meeting(x, y, obj_trap) and obj_trap.sprite_index == spr_trapRed) {
+	//Lower the health If on fire
+	//if (TrapTimer == false) {
+	//	alarm[2] = room_speed*2;
+	//}
+	PlayerHealth--;
 }
 
 #endregion
