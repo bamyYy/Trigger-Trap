@@ -62,10 +62,9 @@ if (place_meeting(x, y, obj_trapTrigger)) {
 
 if (place_meeting(x, y, obj_trap) and obj_trap.sprite_index == spr_trapRed) {
 	//Lower the health If on fire
-	//if (TrapTimer == false) {
-	//	alarm[2] = room_speed*2;
-	//}
-	PlayerHealth--;
+	if (FireTimer == false) {
+		alarm[2] = 15;
+	}
 }
 
 #endregion

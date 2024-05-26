@@ -2,6 +2,7 @@ MovementSpeed = 4;
 PlayerHealth = 3;
 
 TrapTimer = false;
+FireTimer = false;
 FireTrapUsage = 0;
 FireCheck = false;
 

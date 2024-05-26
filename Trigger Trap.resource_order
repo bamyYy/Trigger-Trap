@@ -27,6 +27,7 @@
     {"name":"obj_wallHorizontal","order":2,"path":"objects/obj_wallHorizontal/obj_wallHorizontal.yy",},
     {"name":"obj_wallVertical","order":4,"path":"objects/obj_wallVertical/obj_wallVertical.yy",},
     {"name":"spr_playerHeart","order":2,"path":"sprites/spr_playerHeart/spr_playerHeart.yy",},
+    {"name":"spr_playerHeartFire","order":3,"path":"sprites/spr_playerHeartFire/spr_playerHeartFire.yy",},
     {"name":"spr_playerRed","order":1,"path":"sprites/spr_playerRed/spr_playerRed.yy",},
     {"name":"spr_stop","order":2,"path":"sprites/spr_stop/spr_stop.yy",},
     {"name":"spr_trapRed","order":1,"path":"sprites/spr_trapRed/spr_trapRed.yy",},
