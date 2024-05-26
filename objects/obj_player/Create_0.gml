@@ -1,4 +1,5 @@
 MovementSpeed = 4;
+PlayerHealth = 3;
 
 TrapTimer = false;
 FireTrapUsage = 0;
