@@ -1,8 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_wallHorizontal",
-  "eventList":[],
-  "managed":true,
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":false,
   "name":"obj_wallHorizontal",
   "overriddenProperties":[],
   "parent":{
