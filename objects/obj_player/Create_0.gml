@@ -1,5 +1,9 @@
 MovementSpeed = 4;
 
+TrapTimer = false;
+FireTrapUsage = 0;
+FireCheck = false;
+
 y = 350;
 if (player_id == 0){
 	x =	50;

@@ -5,6 +5,7 @@ rollback_define_input({
 	right: vk_right,
 	up: vk_up,
 	down: vk_down,
+	space: vk_space,
 	mb_x: m_axisx,
 	mb_y: m_axisy,
 	mb_press: mb_left

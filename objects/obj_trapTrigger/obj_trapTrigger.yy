@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trap",
+  "%Name":"obj_trapTrigger",
   "eventList":[],
-  "managed":true,
-  "name":"obj_trap",
+  "managed":false,
+  "name":"obj_trapTrigger",
   "overriddenProperties":[],
   "parent":{
     "name":"Traps",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_trapBlue",
-    "path":"sprites/spr_trapBlue/spr_trapBlue.yy",
+    "name":"spr_trapTriggerRed",
+    "path":"sprites/spr_trapTriggerRed/spr_trapTriggerRed.yy",
   },
   "spriteMaskId":null,
   "visible":true,

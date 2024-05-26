@@ -1,6 +1,6 @@
 depth = -y;
+draw_set_font(Font1);
 
-var _input = rollback_get_input();
 var _input = rollback_get_input();
 
 #region Movement
@@ -38,8 +38,22 @@ if (_input.mb_press) {
 	var gridY = floor(mouseY/32)*32;
 	
 	instance_create_layer(gridX, gridY, "Instances", obj_trap);	
-	show_debug_message("Trap Created" + string(_input.mb_x) + string(_input.mb_y));
 }
 
+if (place_meeting(x, y, obj_trapTrigger)) {
+	if (_input.space and TrapTimer == false) {
+		if (FireTrapUsage < 3) {
+			with (obj_trap) {
+				sprite_index = spr_trapRed;	
+			}
+			alarm[0] = room_speed*2;
+			TrapTimer = true;
+			FireTrapUsage++;
+		} else {
+			alarm[1] = room_speed*2.5;
+			FireCheck = true;
+		}
+	}
+}
 
 #endregion
