@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_stop",
+  "%Name":"obj_wallHorizontal",
   "eventList":[],
   "managed":true,
-  "name":"obj_stop",
+  "name":"obj_wallHorizontal",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite4",
-    "path":"sprites/Sprite4/Sprite4.yy",
+    "name":"TriggerTrap_wallHorizontal",
+    "path":"sprites/TriggerTrap_wallHorizontal/TriggerTrap_wallHorizontal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

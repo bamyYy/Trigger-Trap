@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trap",
+  "%Name":"obj_wallVertical",
   "eventList":[],
   "managed":true,
-  "name":"obj_trap",
+  "name":"obj_wallVertical",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_trapBlue",
-    "path":"sprites/spr_trapBlue/spr_trapBlue.yy",
+    "name":"TriggerTrap_wallVertical",
+    "path":"sprites/TriggerTrap_wallVertical/TriggerTrap_wallVertical.yy",
   },
   "spriteMaskId":null,
   "visible":true,
