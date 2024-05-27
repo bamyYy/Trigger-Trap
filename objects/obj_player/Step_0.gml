@@ -60,11 +60,21 @@ if (place_meeting(x, y, obj_trapTrigger)) {
 	}
 }
 
-if (place_meeting(x, y, obj_trap) and obj_trap.sprite_index == spr_trapRed) {
-	//Lower the health If on fire
-	if (FireTimer == false) {
-		alarm[2] = 15;
-	}
+if (place_meeting(x, y, obj_trap) && obj_trap.sprite_index == spr_trapRed) {
+    // Increment the frame counter
+    frame_counter++;
+
+    // If the counter reaches 60 frames (1 second)
+    if (frame_counter >= 60) {
+        // Lower the PlayerHearts by one
+        PlayerHealth--;
+
+        // Reset the counter
+        frame_counter = 0;
+    }
+} else {
+    // Reset the counter if the player is not meeting the red trap
+    frame_counter = 0;
 }
 
 #endregion

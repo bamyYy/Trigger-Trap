@@ -1,6 +1,8 @@
 MovementSpeed = 4;
 PlayerHealth = 3;
 
+frame_counter = 0;
+
 TrapTimer = false;
 FireTimer = false;
 FireTrapUsage = 0;
