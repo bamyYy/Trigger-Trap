@@ -46,7 +46,7 @@ if (_input.mb_press) {
 
 if (place_meeting(x, y, obj_trapTrigger)) {
 	if (_input.space and TrapTimer == false) {
-		if (FireTrapUsage < 3) {
+		if (FireTrapUsage < 3 and instance_exists(obj_trap)) {
 			with (obj_trap) {
 				sprite_index = spr_trapRed;	
 			}
