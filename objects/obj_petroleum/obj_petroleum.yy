@@ -6,8 +6,8 @@
   "name":"obj_petroleum",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Traps",
+    "path":"folders/Objects/Traps.yy",
   },
   "parentObjectId":null,
   "persistent":false,
