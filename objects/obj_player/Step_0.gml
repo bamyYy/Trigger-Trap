@@ -75,3 +75,4 @@ if (place_meeting(x, y, obj_trap) && obj_trap.sprite_index == spr_trapRed) {
 }
 
 #endregion
+

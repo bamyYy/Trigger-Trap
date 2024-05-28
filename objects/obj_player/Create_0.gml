@@ -16,4 +16,6 @@ if (player_id == 0){
 	sprite_index = spr_playerBlue;
 }
 
-CreatePetroleum();
+if (!instance_exists(obj_game)) {
+	instance_create_layer(x, y, "Instances", obj_game);	
+}
