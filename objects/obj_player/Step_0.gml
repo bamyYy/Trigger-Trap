@@ -41,7 +41,9 @@ if (_input.mb_press) {
 	var gridX = floor(mouseX/32)*32;
 	var gridY = floor(mouseY/32)*32;
 	
-	instance_create_layer(gridX, gridY, "Instances", obj_trap);	
+    if (!instance_position(gridX, gridY, obj_trap)) {
+        instance_create_layer(gridX, gridY, "Instances", obj_trap);
+    }
 }
 
 if (place_meeting(x, y, obj_trapTrigger)) {
