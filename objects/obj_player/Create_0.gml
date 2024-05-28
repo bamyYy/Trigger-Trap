@@ -16,6 +16,4 @@ if (player_id == 0){
 	sprite_index = spr_playerBlue;
 }
 
-show_debug_message(player_local.x);
-
-show_debug_message(player_local.y);
+CreatePetroleum();

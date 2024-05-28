@@ -23,9 +23,11 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_control","order":1,"path":"objects/obj_control/obj_control.yy",},
+    {"name":"obj_petroleum","order":6,"path":"objects/obj_petroleum/obj_petroleum.yy",},
     {"name":"obj_trapTrigger","order":1,"path":"objects/obj_trapTrigger/obj_trapTrigger.yy",},
     {"name":"obj_wallHorizontal","order":2,"path":"objects/obj_wallHorizontal/obj_wallHorizontal.yy",},
     {"name":"obj_wallVertical","order":4,"path":"objects/obj_wallVertical/obj_wallVertical.yy",},
+    {"name":"spr_petroleum","order":3,"path":"sprites/spr_petroleum/spr_petroleum.yy",},
     {"name":"spr_playerHeart","order":2,"path":"sprites/spr_playerHeart/spr_playerHeart.yy",},
     {"name":"spr_playerHeartFire","order":3,"path":"sprites/spr_playerHeartFire/spr_playerHeartFire.yy",},
     {"name":"spr_playerRed","order":1,"path":"sprites/spr_playerRed/spr_playerRed.yy",},

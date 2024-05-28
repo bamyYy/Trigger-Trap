@@ -41,6 +41,7 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
+    {"id":{"name":"obj_petroleum","path":"objects/obj_petroleum/obj_petroleum.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_trap","path":"objects/obj_trap/obj_trap.yy",},},
     {"id":{"name":"obj_trapTrigger","path":"objects/obj_trapTrigger/obj_trapTrigger.yy",},},
@@ -48,6 +49,7 @@
     {"id":{"name":"obj_wallVertical","path":"objects/obj_wallVertical/obj_wallVertical.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
+    {"id":{"name":"spr_petroleum","path":"sprites/spr_petroleum/spr_petroleum.yy",},},
     {"id":{"name":"spr_playerBlue","path":"sprites/spr_playerBlue/spr_playerBlue.yy",},},
     {"id":{"name":"spr_playerHeart","path":"sprites/spr_playerHeart/spr_playerHeart.yy",},},
     {"id":{"name":"spr_playerHeartFire","path":"sprites/spr_playerHeartFire/spr_playerHeartFire.yy",},},
