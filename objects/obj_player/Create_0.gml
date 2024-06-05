@@ -8,12 +8,40 @@ FireTimer = false;
 FireTrapUsage = 0;
 FireCheck = false;
 
+
+//Placement = irandom_range(1,4);
+
 y = 350;
 if (player_id == 0){
-	x =	50;
+	switch (global.Placement) {
+		case 1:
+			x = 1248;
+			y = 1344;
+			break;
+		case 2:
+			x = 160;
+			y = 160;
+			break;
+		case 3:
+			x = 575;
+			y = 832;
+	}
 } else if (player_id == 1){
-	x = 1000;	
-	sprite_index = spr_playerBlue;
+		switch (global.Placement) {
+		case 1:
+			x = 1632;
+			y = 1344;
+			break;
+		case 2:
+			x = 1752;
+			y = 1503;
+			break;
+		case 3:
+			x = 2272;
+			y = 832;
+			break;
+		}
+		sprite_index = spr_playerBlue;
 }
 
 if (!instance_exists(obj_game)) {

@@ -1,3 +1,5 @@
+global.Placement = irandom_range(1,4);
+
 rollback_define_player(obj_player);
 
 rollback_define_input({
