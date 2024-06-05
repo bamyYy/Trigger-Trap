@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trap",
+  "%Name":"obj_fireTrap",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_trap",
+  "name":"obj_fireTrap",
   "overriddenProperties":[],
   "parent":{
     "name":"Traps",

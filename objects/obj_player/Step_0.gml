@@ -41,15 +41,15 @@ if (_input.mb_press) {
 	var gridX = floor(mouseX/32)*32;
 	var gridY = floor(mouseY/32)*32;
 	
-    if (!instance_position(gridX, gridY, obj_trap)) {
-        instance_create_layer(gridX, gridY, "Instances", obj_trap);
+    if (!instance_position(gridX, gridY, obj_fireTrap)) {
+        instance_create_layer(gridX, gridY, "Instances", obj_fireTrap);
     }
 }
 
 if (place_meeting(x, y, obj_trapTrigger)) {
 	if (_input.space and TrapTimer == false) {
-		if (FireTrapUsage < 3 and instance_exists(obj_trap)) {
-			with (obj_trap) {
+		if (FireTrapUsage < 3 and instance_exists(obj_fireTrap)) {
+			with (obj_fireTrap) {
 				sprite_index = spr_trapRed;	
 			}
 			alarm[0] = room_speed*4;
@@ -62,7 +62,7 @@ if (place_meeting(x, y, obj_trapTrigger)) {
 	}
 }
 
-if (place_meeting(x, y, obj_trap) && obj_trap.sprite_index == spr_trapRed) {
+if (place_meeting(x, y, obj_fireTrap) && obj_fireTrap.sprite_index == spr_trapRed) {
     frame_counter++;
 
     if (frame_counter >= 60) {

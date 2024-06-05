@@ -8,9 +8,6 @@ FireTimer = false;
 FireTrapUsage = 0;
 FireCheck = false;
 
-
-//Placement = irandom_range(1,4);
-
 y = 350;
 if (player_id == 0){
 	switch (global.Placement) {
@@ -48,3 +45,7 @@ if (!instance_exists(obj_game)) {
 	instance_create_layer(x, y, "Instances", obj_game);	
 	alarm[2] = room_speed*10;
 }
+
+//Trap Creator
+CurrentTrap = 1;
+
