@@ -15,6 +15,7 @@
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Environment","order":8,"path":"folders/Sprites/Environment.yy",},
+    {"name":"UI","order":9,"path":"folders/Sprites/UI.yy",},
     {"name":"Player","order":5,"path":"folders/Sprites/Player.yy",},
     {"name":"Traps","order":6,"path":"folders/Sprites/Traps.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
