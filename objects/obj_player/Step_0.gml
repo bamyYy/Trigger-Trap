@@ -76,3 +76,11 @@ if (place_meeting(x, y, obj_fireTrap) && obj_fireTrap.sprite_index == spr_trapRe
 
 #endregion
 
+if (mouse_wheel_up()) {
+	CurrentTrap = 2;	
+}
+
+if (mouse_wheel_down()) {
+	CurrentTrap = 1;	
+}
+
