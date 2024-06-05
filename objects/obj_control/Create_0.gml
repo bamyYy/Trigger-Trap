@@ -14,7 +14,7 @@ rollback_define_input({
 })
 
 if (!rollback_join_game()) {
-	rollback_create_game(2, true);
+	rollback_create_game(2, false);
 }
 
 view_camera[0] = camera_create();
