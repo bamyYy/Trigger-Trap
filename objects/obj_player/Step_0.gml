@@ -42,7 +42,7 @@ if (_input.mb_press) {
 	var gridY = floor(mouseY/32)*32;
 	
 	if (CurrentTrap == 1) {
-	    if (!instance_position(gridX, gridY, obj_fireTrap)) {
+	    if (!instance_position(gridX, gridY, obj_fireTrap) and FireTrapUsage < 3) {
 	        instance_create_layer(gridX, gridY, "Instances", obj_fireTrap);
 	    }
 	} else {
