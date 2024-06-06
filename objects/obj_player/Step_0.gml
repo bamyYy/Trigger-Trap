@@ -41,9 +41,15 @@ if (_input.mb_press) {
 	var gridX = floor(mouseX/32)*32;
 	var gridY = floor(mouseY/32)*32;
 	
-    if (!instance_position(gridX, gridY, obj_fireTrap)) {
-        instance_create_layer(gridX, gridY, "Instances", obj_fireTrap);
-    }
+	if (CurrentTrap == 1) {
+	    if (!instance_position(gridX, gridY, obj_fireTrap)) {
+	        instance_create_layer(gridX, gridY, "Instances", obj_fireTrap);
+	    }
+	} else {
+		if (!instance_position(gridX, gridY, obj_trapTrigger)) {
+	        instance_create_layer(gridX, gridY, "Instances", obj_trapTrigger);
+	    }
+	}
 }
 
 if (place_meeting(x, y, obj_trapTrigger)) {
