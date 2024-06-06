@@ -10,11 +10,13 @@ rollback_define_input({
 	space: vk_space,
 	mb_x: m_axisx,
 	mb_y: m_axisy,
-	mb_press: mb_left
+	mb_press: mb_left,
+	scroll_up: m_scroll_up,
+	scroll_down: m_scroll_down,
 })
 
 if (!rollback_join_game()) {
-	rollback_create_game(2, false);
+	rollback_create_game(2, true);
 }
 
 view_camera[0] = camera_create();
