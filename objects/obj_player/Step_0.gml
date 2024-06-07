@@ -26,6 +26,18 @@ if (player_local) {
     camera_set_view_pos(view_camera[0], x - camera_get_view_width(view_camera[0]) / 2, y - camera_get_view_height(view_camera[0]) / 2);
 }
 
+if (place_meeting(x, y, obj_fireTrap) && obj_fireTrap.sprite_index == spr_trapRed) {
+    frame_counter++;
+
+    if (frame_counter >= 60) {
+        PlayerHealth--;
+
+        frame_counter = 0;
+    }
+} else {
+    frame_counter = 0;
+}
+
 if (PlayerHealth <= 0){
 	instance_destroy();
 	show_message("The Game Has Ended");
@@ -33,7 +45,28 @@ if (PlayerHealth <= 0){
 
 #endregion
 
+//if (CurrentTrap > 2 or CurrentTrap < 0) {
+//	show_message("Masaka")	
+//}
+
 #region Trap Placing
+if (_input.scroll_up) {
+	if (CurrentTrap+1 > 2) { //??????
+		CurrentTrap = 0;
+	} else {
+		CurrentTrap++;	
+	}
+}
+
+if (_input.scroll_down) {
+	if (CurrentTrap-1 < 0) {
+		CurrentTrap = array_length(TrapList)-1;
+	} else {
+		CurrentTrap--;	
+	}
+}
+
+
 if (_input.mb_press) {
 	var mouseX = _input.mb_x;
 	var mouseY = _input.mb_y;
@@ -41,15 +74,26 @@ if (_input.mb_press) {
 	var gridX = floor(mouseX/32)*32;
 	var gridY = floor(mouseY/32)*32;
 	
-	if (CurrentTrap == 1) {
-	    if (!instance_position(gridX, gridY, obj_fireTrap) and FireTrapUsage < 3) {
+	if (CurrentTrap == 0) {
+	    if (!instance_position(gridX, gridY, obj_parTrap) and FireTrapUsage < 3) {
 	        instance_create_layer(gridX, gridY, "Instances", obj_fireTrap);
 	    }
-	} else {
-		if (!instance_position(gridX, gridY, obj_trapTrigger)) {
+	} else if (CurrentTrap == 1) {
+		if (!instance_position(gridX, gridY, obj_parTrap)) {
 	        instance_create_layer(gridX, gridY, "Instances", obj_trapTrigger);
 	    }
+	} else if (CurrentTrap == 2) {
+		if (!instance_position(gridX, gridY, obj_parTrap)) {
+	        instance_create_layer(gridX, gridY, "Instances", obj_trapMine);
+		}
 	}
+	
+
+	
+	//if (!instance_position(gridX, gridY, obj_parTrap)) {
+	//	instance_create_layer(gridX, gridY, "Instances", TrapList[CurrentTrap]);
+	//}
+	
 }
 
 if (place_meeting(x, y, obj_trapTrigger)) {
@@ -68,30 +112,11 @@ if (place_meeting(x, y, obj_trapTrigger)) {
 	}
 }
 
-if (place_meeting(x, y, obj_fireTrap) && obj_fireTrap.sprite_index == spr_trapRed) {
-    frame_counter++;
+//Switch the Traps
 
-    if (frame_counter >= 60) {
-        PlayerHealth--;
-
-        frame_counter = 0;
-    }
-} else {
-    frame_counter = 0;
-}
-
+//if (CurrentTrap > array_length(TrapList)) {
+//	CurrentTrap = 0;	
+//} else if (CurrentTrap < 0) {
+//	CurrentTrap = array_length(TrapList);	
+//}
 #endregion
-
-if (_input.scroll_up) {
-	CurrentTrap++;	
-}
-
-if (_input.scroll_down) {
-	CurrentTrap--;	
-}
-
-if (CurrentTrap > array_length(TrapList)) {
-	CurrentTrap = 1;	
-} else if (CurrentTrap < 1) {
-	CurrentTrap = array_length(TrapList);	
-}

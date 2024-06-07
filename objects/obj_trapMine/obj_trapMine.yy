@@ -9,7 +9,10 @@
     "name":"Traps",
     "path":"folders/Objects/Traps.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_parTrap",
+    "path":"objects/obj_parTrap/obj_parTrap.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

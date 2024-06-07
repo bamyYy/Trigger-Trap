@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fireTrap",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_parTrap",
+  "eventList":[],
   "managed":true,
-  "name":"obj_fireTrap",
+  "name":"obj_parTrap",
   "overriddenProperties":[],
   "parent":{
-    "name":"Traps",
-    "path":"folders/Objects/Traps.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_parTrap",
-    "path":"objects/obj_parTrap/obj_parTrap.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_trapBlue",
-    "path":"sprites/spr_trapBlue/spr_trapBlue.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
