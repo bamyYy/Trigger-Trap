@@ -48,4 +48,4 @@ if (!instance_exists(obj_game)) {
 
 //Trap Creator
 CurrentTrap = 1;
-
+TrapList = [obj_fireTrap, obj_trapTrigger];

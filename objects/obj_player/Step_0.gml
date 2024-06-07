@@ -83,10 +83,15 @@ if (place_meeting(x, y, obj_fireTrap) && obj_fireTrap.sprite_index == spr_trapRe
 #endregion
 
 if (_input.scroll_up) {
-	CurrentTrap = 2;	
+	CurrentTrap++;	
 }
 
 if (_input.scroll_down) {
-	CurrentTrap = 1;	
+	CurrentTrap--;	
 }
 
+if (CurrentTrap > array_length(TrapList)) {
+	CurrentTrap = 1;	
+} else if (CurrentTrap < 1) {
+	CurrentTrap = array_length(TrapList);	
+}
