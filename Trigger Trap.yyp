@@ -46,6 +46,7 @@
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_petroleum","path":"objects/obj_petroleum/obj_petroleum.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_trapMine","path":"objects/obj_trapMine/obj_trapMine.yy",},},
     {"id":{"name":"obj_trapTrigger","path":"objects/obj_trapTrigger/obj_trapTrigger.yy",},},
     {"id":{"name":"obj_wallHorizontal","path":"objects/obj_wallHorizontal/obj_wallHorizontal.yy",},},
     {"id":{"name":"obj_wallVertical","path":"objects/obj_wallVertical/obj_wallVertical.yy",},},

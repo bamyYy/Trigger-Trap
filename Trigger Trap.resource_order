@@ -26,6 +26,7 @@
     {"name":"obj_control","order":1,"path":"objects/obj_control/obj_control.yy",},
     {"name":"obj_game","order":7,"path":"objects/obj_game/obj_game.yy",},
     {"name":"obj_petroleum","order":2,"path":"objects/obj_petroleum/obj_petroleum.yy",},
+    {"name":"obj_trapMine","order":3,"path":"objects/obj_trapMine/obj_trapMine.yy",},
     {"name":"obj_trapTrigger","order":1,"path":"objects/obj_trapTrigger/obj_trapTrigger.yy",},
     {"name":"obj_wallHorizontal","order":2,"path":"objects/obj_wallHorizontal/obj_wallHorizontal.yy",},
     {"name":"obj_wallVertical","order":4,"path":"objects/obj_wallVertical/obj_wallVertical.yy",},
