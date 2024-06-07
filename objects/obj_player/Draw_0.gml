@@ -20,6 +20,9 @@ switch(CurrentTrap) {
 		draw_sprite(spr_frameFireTrap, 0, x, y-sprite_height-54); 
 		break;
 	case 2:	
-		draw_sprite(spr_frameFireTrapTrigger, 0, x, y-sprite_height-53); 
+		draw_sprite(spr_frameFireTrapTrigger, 0, x, y-sprite_height-54); 
+		break;
+	case 3:
+		draw_sprite(spr_mineTrap, 0, x, y-sprite_height-53); 
 		break;
 }

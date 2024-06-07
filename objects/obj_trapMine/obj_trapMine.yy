@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_mineTrap",
+    "path":"sprites/spr_mineTrap/spr_mineTrap.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

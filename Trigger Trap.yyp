@@ -55,6 +55,7 @@
     {"id":{"name":"spr_frame","path":"sprites/spr_frame/spr_frame.yy",},},
     {"id":{"name":"spr_frameFireTrap","path":"sprites/spr_frameFireTrap/spr_frameFireTrap.yy",},},
     {"id":{"name":"spr_frameFireTrapTrigger","path":"sprites/spr_frameFireTrapTrigger/spr_frameFireTrapTrigger.yy",},},
+    {"id":{"name":"spr_mineTrap","path":"sprites/spr_mineTrap/spr_mineTrap.yy",},},
     {"id":{"name":"spr_petroleum","path":"sprites/spr_petroleum/spr_petroleum.yy",},},
     {"id":{"name":"spr_playerBlue","path":"sprites/spr_playerBlue/spr_playerBlue.yy",},},
     {"id":{"name":"spr_playerHeart","path":"sprites/spr_playerHeart/spr_playerHeart.yy",},},
