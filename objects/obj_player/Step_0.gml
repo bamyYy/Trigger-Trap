@@ -1,6 +1,8 @@
 depth = -y;
 draw_set_font(Font1);
 
+show_message(instance_number(obj_player));
+
 var _input = rollback_get_input();
 
 #region Movement

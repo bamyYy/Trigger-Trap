@@ -48,7 +48,7 @@ if (!instance_exists(obj_game)) {
 
 //Trap Creator
 CurrentTrap = 0;
-TrapList = [obj_fireTrap, obj_trapTrigger, obj_trapMine];
+TrapList = [obj_fireTrap, obj_trapTrigger];
 show_debug_message(TrapList[0]);
 show_debug_message(TrapList[CurrentTrap]);
 show_debug_message("TEST")
