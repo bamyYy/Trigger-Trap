@@ -40,7 +40,6 @@ if (place_meeting(x, y, obj_fireTrap) && obj_fireTrap.sprite_index == spr_trapRe
 
 if (PlayerHealth <= 0){
 	instance_destroy();
-	show_message("The Game Has Ended");
 }
 
 #endregion
