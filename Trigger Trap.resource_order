@@ -17,6 +17,7 @@
     {"name":"Environment","order":8,"path":"folders/Sprites/Environment.yy",},
     {"name":"Player","order":5,"path":"folders/Sprites/Player.yy",},
     {"name":"Traps","order":6,"path":"folders/Sprites/Traps.yy",},
+    {"name":"Effects","order":5,"path":"folders/Sprites/Traps/Effects.yy",},
     {"name":"UI","order":9,"path":"folders/Sprites/UI.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Sprites","order":1,"path":"folders/Tile Sets/Sprites.yy",},
