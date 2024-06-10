@@ -1,7 +1,7 @@
 depth = -y;
 draw_set_font(Font1);
 
-show_debug_message(global.Placement);
+show_debug_message(Placement);
 
 var _input = rollback_get_input();
 

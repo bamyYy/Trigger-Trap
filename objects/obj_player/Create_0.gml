@@ -1,6 +1,12 @@
-global.Placement = irandom_range(1,4);
+Placement = irandom_range(1,4);
 
-show_debug_message(global.Placement);
+show_debug_message(Placement);
+
+if (player_id == 0) {
+	global.random = Placement;
+}
+
+show_debug_message(global.random);
 
 MovementSpeed = 4;
 PlayerHealth = 3;
@@ -14,7 +20,7 @@ FireCheck = false;
 
 y = 350;
 if (player_id == 0){
-	switch (global.Placement) {
+	switch (global.random) {
 		case 1:
 			x = 1248;
 			y = 1344;
@@ -28,7 +34,7 @@ if (player_id == 0){
 			y = 832;
 	}
 } else if (player_id == 1){
-		switch (global.Placement) {
+		switch (global.random) {
 		case 1:
 			x = 1632;
 			y = 1344;

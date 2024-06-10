@@ -1,5 +1,5 @@
 //randomize();
-//global.Placement = irandom_range(1,4);
+//Placement = irandom_range(1,4);
 
 rollback_define_player(obj_player);
 
@@ -26,5 +26,5 @@ camera_set_view_size(view_camera[0], 630, 360);
 view_camera[1] = camera_create();
 camera_set_view_size(view_camera[1], 630, 360);
 
-
-//global.Placement = irandom_range(1,4);
+global.random = 1;
+//Placement = irandom_range(1,4);
