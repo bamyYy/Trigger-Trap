@@ -1,6 +1,3 @@
-//randomize();
-//Placement = irandom_range(1,4);
-
 rollback_define_player(obj_player);
 
 rollback_define_input({
@@ -27,4 +24,3 @@ view_camera[1] = camera_create();
 camera_set_view_size(view_camera[1], 630, 360);
 
 global.random = 1;
-//Placement = irandom_range(1,4);

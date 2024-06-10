@@ -1,4 +1,4 @@
-Placement = irandom_range(1,4);
+Placement = irandom_range(1,3);
 
 show_debug_message(Placement);
 
