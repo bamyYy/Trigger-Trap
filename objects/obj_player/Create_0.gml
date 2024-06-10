@@ -1,3 +1,7 @@
+global.Placement = irandom_range(1,4);
+
+show_debug_message(global.Placement);
+
 MovementSpeed = 4;
 PlayerHealth = 3;
 
@@ -49,6 +53,8 @@ if (!instance_exists(obj_game)) {
 //Trap Creator
 CurrentTrap = 0;
 TrapList = [obj_fireTrap, obj_trapTrigger];
+
+
 show_debug_message(TrapList[0]);
 show_debug_message(TrapList[CurrentTrap]);
 show_debug_message("TEST")
