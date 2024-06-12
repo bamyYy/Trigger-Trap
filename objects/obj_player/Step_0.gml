@@ -61,7 +61,7 @@ if (_input.scroll_up) {
 
 if (_input.scroll_down) {
 	if (CurrentTrap-1 < 0) {
-		CurrentTrap = array_length(TrapList)-1;
+		CurrentTrap = 2;
 	} else {
 		CurrentTrap--;	
 	}
